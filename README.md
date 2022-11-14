@@ -11,6 +11,8 @@ Django 2.2
 5. python manage.py startapp perfis
 6. Adicionar a aplicação 'perfis' na tupla INSTALLED_APPS no arquivo experiencein/experiencein/settings.py
 7. Criar pagina perfil.html em experiencein/perfis/templates/
-
+8. Atualizando arquivo models.py
+9. python manage.py makemigrations
+10. 
 
 
