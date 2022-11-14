@@ -13,6 +13,7 @@ Django 2.2
 7. Criar pagina perfil.html em experiencein/perfis/templates/
 8. Atualizando arquivo models.py
 9. python manage.py makemigrations
-10. 
-
-
+10. python manage.py migrate
+11. Atualizando tamanho dos campos do Perfil
+12. python manage.py makemigrations
+13. python manage.py migrate
