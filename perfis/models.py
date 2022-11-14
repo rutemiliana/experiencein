@@ -3,10 +3,9 @@ from django.db import models
 # Create your models here.
 
 class Perfil(models.Model): #Nome da tabela (ORM)
-    #construtor, campos da tabela
-    def __init__(self, nome='', email='', telefone='', nome_empresa=''):
-        self.nome = nome
-        self.email = email
-        self.telefone = telefone
-        self.nome_empresa = nome_empresa
+    # campos da tabela
+        nome = models.CharField(max_length = 255, null = False)
+        email = models.CharField(max_length = 255, null = False)
+        telefone = models.CharField(max_length = 255, null = False)
+        nome_empresa = models.CharField(max_length = 255, null = False)
 
