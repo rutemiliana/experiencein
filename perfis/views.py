@@ -9,5 +9,6 @@ def index(request):
 
 def exibir(request, perfil_id):
 
+    perfil = Perfil.objects.get(id=perfil_id)
     return render(request , 'perfil.html' , {'perfil' : perfil})
     ## terceiro parâmetro para a função render, que nada mais é do que um dicionário que contém a chave "perfil", que guarda o objeto perfil 
