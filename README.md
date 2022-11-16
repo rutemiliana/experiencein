@@ -17,3 +17,8 @@ Django 2.2
 11. Atualizando tamanho dos campos do Perfil
 12. python manage.py makemigrations
 13. python manage.py migrate
+14. criar perfis no shell
+15. adicionar função convidar em perfis/views.py
+16. criar nova rota em perfils/urls.py
+17. adicionar link para convite em templates/perfil 
+18. adicionar método convidar na classe Perfil em perfis/models.py

@@ -14,3 +14,6 @@ def exibir(request, perfil_id):
 
 def convidar(request, perfil_id):
     pass
+
+def get_perfil_logado(request):
+    return Perfil.objects.get(id = 1)
