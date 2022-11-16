@@ -7,10 +7,7 @@
     <title>ExperienceIn</title>
 </head>
 <body>
-    <h1>Detalhe Perfil</h1>
-    nome: {{perfil.nome}}
-    email: {{perfil.email}}
-    empresa: {{perfil.nome_empresa}}
-    telefone: {{perfil.telefone}}
+    <h1>Detalhe Perfil: {{perfil.nome}}</h1>
+    <a href="{% url 'convidar' perfil.id %}"></a>
 </body>
 </html>

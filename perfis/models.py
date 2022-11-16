@@ -9,3 +9,6 @@ class Perfil(models.Model): #Nome da tabela (ORM)
     telefone = models.CharField(max_length = 15, null = False)
     nome_empresa = models.CharField(max_length = 255, null = False)
 
+    def convidar(self, perfil_convidado):
+        pass
+
