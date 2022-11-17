@@ -12,3 +12,6 @@ class Perfil(models.Model): #Nome da tabela (ORM)
     def convidar(self, perfil_convidado):
         pass
 
+class Convite(models.Model):
+    solicitante = models.ForeignKey(Perfil, on_delete=models.CASCADE)
+    convidado = models.ForeignKey(Perfil, on_delete=models.CASCADE)

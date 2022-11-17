@@ -22,4 +22,4 @@ Django 2.2
 16. criar nova rota em perfils/urls.py
 17. adicionar link para convite em templates/perfil 
 18. adicionar método convidar na classe Perfil em perfis/models.py
-
+19. criar classe convite em perfis/models.py
